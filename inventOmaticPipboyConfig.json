@@ -1,0 +1,90 @@
+{
+        "debug": true,
+        "drop": {
+            "enabled": true,
+            "configs": [
+                {
+                    "name": "plans to drop",
+                    "hotkey": 79,
+                    "matchMode": "CONTAINS",
+                    "itemNames": [
+                        "设计图",
+                        "配方",
+                        "猎豹裤装",
+                        "郁金香天蓝裤装",
+                        "赤色分子指挥官",
+                        "巫师的命运",
+                        "汽油弹",
+                        "漂浮者火焰手雷",
+                        "漂浮者冻结手雷",
+                        "漂浮者毒气手雷",
+                        "冷冻手雷",
+                        "南瓜手雷",
+                        "棒球手雷",
+                        "破片手雷",
+                        "等离子手雷",
+                        "脉冲手雷",
+                        "冷冻地雷",
+                        "破片地雷",
+                        "等离子地雷",
+                        "脉冲地雷",
+                        "核子可乐糖果",
+                        "核子可乐量子糖果",
+                        "啤酒",
+                        "伏特加",
+                        "老负鼠",
+                        "蜜香山",
+                        "月光私酿",
+                        "菲尔彻的采访"
+                    ],
+                    "enabled": true,
+                    "checkCharacterName": false,
+                    "characterName": "none",
+                    "teenoodleTragedyProtection": {
+                        "ignoreLegendaries": false,
+                        "ignoreNonTradable": false,
+						"typesToDrop": [
+                            "WEAPON",
+                            "APPAREL",
+                            "FOOD_WATER",
+                            "NOTES",
+                            "HOLO",
+                            "MISC"
+						]
+                    }
+                },
+                {
+                    "name": "Junk items to drop 2",
+                    "hotkey": 82,
+                    "matchMode": "EXACT",
+                    "itemNames": ["Mini nuke", "missile"],
+                    "enabled": false,
+                    "checkCharacterName": false,
+                    "characterName": "none"
+                }
+            ]
+        },
+        "consume": {
+            "enabled": false,
+            "configs": [
+                {
+                    "name": "Boss name items to consume",
+                    "hotkey": 80,
+                    "matchMode": "CONTAINS",
+                    "itemNames": ["Beer", "Fury"],
+                    "enabled": true,
+                    "checkCharacterName": false,
+                    "characterName": "none"
+                },
+                {
+                    "name": "Boss name items to consume 2",
+                    "hotkey": 81,
+                    "matchMode": "CONTAINS",
+                    "itemNames": ["Beer", "Fury"],
+                    "enabled": false,
+                    "checkCharacterName": false,
+                    "characterName": "none"
+                }
+            ]
+        }
+}
